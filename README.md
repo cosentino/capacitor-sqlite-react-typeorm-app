@@ -8,6 +8,8 @@ See also [typeorm-react-swc](https://github.com/ItayGarin/typeorm-react-swc) for
 
 ## Installation
 
+Since Create React App does not allow to tweek the typescript parser and the transformer as required by TypeORM, we need to replace react-script with a tool such as [CRACO](https://craco.js.org/) and then override the default configurations.
+
 ### 1. Install the latest version of the package from npm as a dev dependency:
 
 ```bash
