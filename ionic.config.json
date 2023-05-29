@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-sqlite-react-typeorm-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
