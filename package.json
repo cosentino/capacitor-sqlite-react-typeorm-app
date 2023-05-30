@@ -12,7 +12,7 @@
     "@capacitor/android": "5.0.4",
     "@capacitor/core": "^5.0.0",
     "@capacitor/dialog": "^5.0.0",
-    "@capacitor/ios": "^5.0.0",
+    "@capacitor/ios": "^5.0.4",
     "@capacitor/toast": "^5.0.0",
     "@ionic/pwa-elements": "^3.1.1",
     "@ionic/react": "^6.6.1",
@@ -57,7 +57,8 @@
     "copysqlwasm": "copyfiles -u 3 node_modules/sql.js/dist/sql-wasm.wasm public/assets",
     "ionic:build": "npm run build",
     "ionic:serve": "npm run start",
-    "build_android": "ionic build && npx cap copy --inline android"
+    "build_android": "ionic build && npx cap copy --inline android",
+    "build_ios": "ionic build && npx cap copy --inline ios"
   },
   "eslintConfig": {
     "extends": [
