@@ -54,7 +54,10 @@
     "start": "npm run copysqlwasm && craco start",
     "build": "npm run copysqlwasm && craco build",
     "test": "craco test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
-    "copysqlwasm": "copyfiles -u 3 node_modules/sql.js/dist/sql-wasm.wasm public/assets"
+    "copysqlwasm": "copyfiles -u 3 node_modules/sql.js/dist/sql-wasm.wasm public/assets",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run start",
+    "build_android": "ionic build && npx cap copy --inline android"
   },
   "eslintConfig": {
     "extends": [
@@ -77,6 +80,7 @@
   "devDependencies": {
     "@capacitor/cli": "^5.0.0",
     "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
     "@types/react-modal": "^3.13.1",
     "copyfiles": "^2.4.1",
     "craco-swc": "^0.5.1"

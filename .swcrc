@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "externalHelpers": true,
+    "target": "es5",
+    "keepClassNames": true,
+    "preserveAllComments": true,
+    "loose": true,
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "dynamicImport": true,
+      "decorators": true
+    },
+    "transform": {
+      "legacyDecorator": true,
+      "decoratorMetadata": true
+    },
+    "minify": {
+      "compress": false,
+      "keep_classnames": true,
+      "keep_fnames": true
+    }
+  },
+  "minify": false    
+}

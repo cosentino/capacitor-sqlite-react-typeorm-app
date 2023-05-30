@@ -48,6 +48,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     // see https://github.com/capacitor-community/sqlite/issues/106
     await CapacitorSQLite.checkConnectionsConsistency({
       dbNames: [], // i.e. "i expect no connections to be open"
+      openModes: [],
     }).catch((e) => {
       // the plugin throws an error when closing connections. we can ignore
       // that since it is expected behaviour
