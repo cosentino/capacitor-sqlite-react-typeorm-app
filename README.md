@@ -64,9 +64,7 @@ module.exports = {
   "jsc": {
     "externalHelpers": true,
     "target": "es5",
-    "keepClassNames": true,
     "preserveAllComments": true,
-    "loose": true,
     "parser": {
       "syntax": "typescript",
       "tsx": true,
@@ -76,14 +74,8 @@ module.exports = {
     "transform": {
       "legacyDecorator": true,
       "decoratorMetadata": true
-    },
-    "minify": {
-      "compress": false,
-      "keep_classnames": true,
-      "keep_fnames": true
     }
-  },
-  "minify": false    
+  }
 }
 ```
 
