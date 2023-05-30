@@ -9,11 +9,11 @@
   "dependencies": {
     "@capacitor-community/electron": "^4.1.2",
     "@capacitor-community/sqlite": "^4.6.3-3",
-    "@capacitor/android": "^4.6.3",
-    "@capacitor/core": "^4.6.3",
-    "@capacitor/dialog": "^4.0.1",
-    "@capacitor/ios": "^4.6.3",
-    "@capacitor/toast": "^4.0.1",
+    "@capacitor/android": "5.0.4",
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/dialog": "^5.0.0",
+    "@capacitor/ios": "^5.0.0",
+    "@capacitor/toast": "^5.0.0",
     "@ionic/pwa-elements": "^3.1.1",
     "@ionic/react": "^6.6.1",
     "@ionic/react-router": "^6.6.1",
@@ -75,7 +75,7 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "^4.6.3",
+    "@capacitor/cli": "^5.0.0",
     "@craco/craco": "^7.1.0",
     "@types/react-modal": "^3.13.1",
     "copyfiles": "^2.4.1",
